@@ -1,16 +1,32 @@
 {
   "name": "@thovino/bff-utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "bff utils",
-  "repository": "git@github.com:wy2016xiao/bff-utils.git",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wy2016xiao/bff-utils.git"
+  },
   "author": "汪洋 <120643557@qq.com>",
-  "license": "MIT",
-  "main": "index.js",
+  "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && npm run compile",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "prepare": "npm run build"
   },
   "keywords": [
     "typescript",
     "node.js"
   ],
+  "bugs": {
+    "url": "https://github.com/wy2016xiao/bff-utils/issues"
+  },
+  "homepage": "https://github.com/wy2016xiao/bff-utils#readme",
+  "dependencies": {
+    "@types/node": "^10.12.2",
+    "gts": "^0.8.0",
+    "typescript": "^3.1.1"
+  }
 }
