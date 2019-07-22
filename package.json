@@ -1,0 +1,16 @@
+{
+  "name": "@thovino/bff-utils",
+  "version": "1.0.0",
+  "description": "bff utils",
+  "repository": "git@github.com:wy2016xiao/bff-utils.git",
+  "author": "汪洋 <120643557@qq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "node.js"
+  ],
+}
