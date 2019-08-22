@@ -1,3 +1,4 @@
 # bff utils
 
-云客项目公共工具依赖
+ts + koa + routing-controller
+工具库
